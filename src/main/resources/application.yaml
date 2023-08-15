@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/rest_jwt
+    username: postgres
+    password: 87654321
+    driver-class-name: org.postgresql.Driver
+  liquibase:
+    change-log: classpath:liquibase/db.changelog.yaml
+    enabled: true
+security:
+  jwt:
+    secret: mkjhkjhkhkjkjhkjhkh
+    lifetime: 10m
