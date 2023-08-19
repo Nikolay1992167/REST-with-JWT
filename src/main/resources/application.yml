@@ -9,5 +9,5 @@ spring:
     enabled: true
 security:
   jwt:
-    secret: mkjhkjhkhkjkjhkjhkh
+    secret: mkjhkjhkhkjkjhkjhkh3242HJkjkjhkjkhjdkjdsdfs
     lifetime: 10m

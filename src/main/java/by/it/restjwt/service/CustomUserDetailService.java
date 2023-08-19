@@ -1,5 +1,7 @@
 package by.it.restjwt.service;
 
+import by.it.restjwt.entity.User;
+import by.it.restjwt.security.CustomUserDetails;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -14,6 +16,7 @@ public class CustomUserDetailService implements UserDetailsService {
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        return null;
+        User user = userService.getUserByUsername(username);
+        return new CustomUserDetails(user);
     }
 }
