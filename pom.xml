@@ -22,6 +22,7 @@
         <swagger.version>2.2.15</swagger.version>
         <compiler.version>3.11.0</compiler.version>
         <liquibase.version>4.23.0</liquibase.version>
+        <log4j.version>2.20.0</log4j.version>
     </properties>
     <dependencies>
         <dependency>
@@ -131,6 +132,11 @@
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-compiler-plugin</artifactId>
             <version>${compiler.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>${log4j.version}</version>
         </dependency>
     </dependencies>
     <build>
