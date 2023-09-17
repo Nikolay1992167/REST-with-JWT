@@ -11,3 +11,12 @@ security:
   jwt:
     secret: mkjhkjhkhkjkjhkjhkh3242HJkjkjhkjkhjdkjdsdfs
     lifetime: 10m
+
+nikolay.openapi.dev-url: http://localhost:8080
+springdoc:
+  api-docs:
+    path: /api-doc
+  swagger-ui:
+    path: /documentation
+    try-it-out-enabled: true
+  packages-to-scan: by.it.restjwt.controller

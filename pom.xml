@@ -23,6 +23,7 @@
         <compiler.version>3.11.0</compiler.version>
         <liquibase.version>4.23.0</liquibase.version>
         <log4j.version>2.20.0</log4j.version>
+        <springdoc-openapi.version>2.2.0</springdoc-openapi.version>
     </properties>
     <dependencies>
         <dependency>

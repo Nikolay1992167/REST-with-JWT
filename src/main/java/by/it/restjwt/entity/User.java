@@ -8,7 +8,7 @@ import lombok.EqualsAndHashCode;
 @Entity
 @Table(name = "users")
 @EqualsAndHashCode(callSuper = true)
-public class User extends BaseEntity{
+public class User extends BaseEntity {
 
     @Column(name = "username")
     private String username;

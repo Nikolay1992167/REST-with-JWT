@@ -13,7 +13,7 @@ import java.util.List;
 @Entity
 @Table(name = "roles")
 @EqualsAndHashCode(callSuper = true)
-public class Role extends BaseEntity{
+public class Role extends BaseEntity {
 
     @Column(name = "name")
     private String name;
